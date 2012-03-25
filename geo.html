@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<script src="geoConverter.js"></script>
+<script>
+	window.onload = function(event){ alert(event); };
+</script>
+hello geo world
+</body>
+<button onclick="var utm = geoConverter.latLonToUTMXYZone(59.969, 10.45); alert('x: ' + utm.x + '\ny: ' + utm.y + '\nzone: ' + utm.zone);">test</button>
+</html>
